@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../Container/Container'
 import TrendingProductsCard from '../TrendingProductsCard/TrendingProductsCard'
 import { Link } from 'react-router'
+import Sportswear from '../Sportswear/Sportswear'
 
 const TrendingProducts = () => {
     return (
@@ -18,6 +19,9 @@ const TrendingProducts = () => {
                     </div>
                     <div className="text-center">
                         <Link to={'/shop'} className='uppercase  font-medium duration-300 hover:border-b-2'>See All Products</Link>
+                    </div>
+                    <div className="my-10">
+                        <Sportswear/>
                     </div>
                 </Container>
             </div>
