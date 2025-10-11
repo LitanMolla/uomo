@@ -9,7 +9,7 @@ const TrendingProducts = () => {
         <>
             <div className="my-10 md:my-20">
                 <Container>
-                    <h4 className='uppercase font-medium text-2xl text-center'>Trending <span className='font-bold'>Products</span></h4>
+                    <h4 className='uppercase font-medium text-3xl text-center'>Trending <span className='font-bold'>Products</span></h4>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 my-8">
                         {
                             [1, 1, 1, 1, 1, 1, 1, 1].map(product => (
